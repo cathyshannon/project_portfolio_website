@@ -1,0 +1,162 @@
+
+
+h1, h3, p {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 30px; padding-left: 20px; padding-right: 20px;}
+
+li {
+    display: inline;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	width: 320px;
+}
+
+nav ul li a {
+	padding: 10px;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+nav ul li a:hover {
+	display: block;
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background:rgba(63, 181, 255, 0.4);
+}
+
+.content-wrapper-outer{display:block;overflow-y:scroll;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(255, 255, 255, 0.8);}
+
+.content .header{height:50px;width:500px;margin:0 auto;padding:0;}
+
+.content-wrapper-outer{display:table;overflow:hidden;height:100%;width:100%;background: url("ireland.jpg")}
+.content-wrapper-outer .content-wrapper-middle{display:table-cell;vertical-align:middle;}
+
+.content-wrapper-outer .content-wrapper-middle .content-wrapper-inner {margin-left:auto;margin-right:auto;width:1080px;background:rgba(255, 255, 255, 0.8);border-radius: 25px;}
+.header {padding: 20px; text-align: center;} 
+
+.content-text {padding: 20px; margin-top: 50px;}
+
+.websites {
+	display: inline-block;
+	width: 100%;
+	padding: 20px; 
+	margin-top: 50px;
+	margin: 0 auto;
+
+}
+
+.websites h3 {
+	display: inline-block;
+	margin-top: 80px;
+	padding-left: 170px;
+
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+#jurassic    {  
+	float: left;
+	width:600px;
+    height:400px;
+    display: block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("jurassic.png");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#beatles    {  
+
+	margin: 0 auto;
+	width:600px;
+    height:400px;
+    display: block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("beatles.png");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#jurassic:hover #overlay {
+    opacity:1;
+}
+
+#beatles:hover #overlay {
+    opacity:1;
+}  
+
+#overlay-text       {  
+	font-family:Helvetica;
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:14px;}
+
+.website:hover .overlay {
+	opacity: 1;
+}
+
+section {
+	width: 960px;
+	padding-bottom: 43px;
+	margin: 0 auto;
+	color: white;
+	overflow: auto;
+}
+
+.website:hover .overlay {
+	opacity: 1;
+}
+
+span.overlay {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	opacity: 0;
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	font-size: 16px;
+}
+
+a.website {
+	display: inline-block;
+	margin-left: 80px;
+	width: 800px;
+	height: 400px;
+	background-size: cover;
+}
+
+
+#lesson1 {
+	background-image:url(jurassic.png);
+}
+
+#lesson2 {
+	background-image:url(beatles.png);
+}

@@ -1,0 +1,358 @@
+/* style.css */
+
+.container {
+	background-color: black;
+	width: 800px;
+	height: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	top: 0;
+}
+
+.container_three_column {
+	background-color: black;
+	width: 800px;
+	height: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	top: 0;
+}
+
+.header {
+	top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	position: fixed;
+	float: left;
+}
+
+.header a:hover {
+	background-color: transparent;
+}
+
+.header .beatles-header {
+	width: 100%;
+}
+
+#content {
+	clear: left;
+	width: 800px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 50px;
+}
+
+.content_three_column {
+	padding: 10px;
+}
+
+.social {
+	float: left;
+	position: fixed;
+	width: 30px;
+	top: 375px;
+	padding-left: 30px;
+}
+
+.social a:hover {
+	background-color: transparent;
+}
+
+.column-left {
+	float: left;
+	position: fixed;
+	display: inline-block;
+	width: 100px;
+	top: 355px;
+	margin-left: 100px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.column-left h3 {
+	color: red;
+}
+
+.column-right {
+	float: right;
+	width: 500px;
+	margin-top: 350px;
+	padding-right: 50px;
+}
+
+.column-right h3 {
+	display: inline-block;
+	margin-top: 80px;
+	padding-left: 170px;
+
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.column-center {
+	display: inline-block;
+	position: fixed;
+	width: 200px;
+	margin-top: 335px; 
+	margin-left: 210px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.main {
+	width: 530px;
+	float: right;
+	padding-top: 340px;
+	padding-right: 50px;
+	line-height: 20px;
+}
+
+.main h3 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.map {
+	float: right;
+	display: inline-block;
+	position: fixed;
+	width: 300px;
+	margin-left: 450px;
+	padding-top: 355px;
+	padding-right: 50px;
+	line-height: 20px;
+}
+
+.social a:hover {
+    background-color:none;
+}
+
+#box1    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/01_please_please_me.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box2    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/02_with_the_beatles.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box3    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/03_beatles_for_sale.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box4    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/04_help.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box5    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/05_rubber_soul.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box6    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/06_revolver.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box7    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/07_magical_mystery_tour.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box8    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/08_sgt_peppers.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box9    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/09_the_beatles_white_album.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box10    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/10_abbey_road.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box11    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/11_yellow_submarine.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box12    {  
+	float: left;
+	width:200px;
+    height:200px;
+    display: inline-block;
+    box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border:2px solid #D3D3D3;
+    margin:2%;
+    background:url("img/12_let_it_be.jpg");
+  	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;}
+
+#box1:hover #overlay {
+               opacity:1;}
+#box2:hover #overlay {
+               opacity:1;}    
+#box3:hover #overlay {
+               opacity:1;}
+#box4:hover #overlay {
+               opacity:1;}    
+#box5:hover #overlay {
+               opacity:1;}
+#box6:hover #overlay {
+               opacity:1;}    
+#box7:hover #overlay {
+               opacity:1;}
+#box8:hover #overlay {
+               opacity:1;}    
+#box9:hover #overlay {
+               opacity:1;}
+#box10:hover #overlay {
+               opacity:1;}    
+#box11:hover #overlay {
+               opacity:1;}
+#box12:hover #overlay {
+               opacity:1;}    
+
+#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:90px 0 90px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+#overlay-text       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:14px;}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: red;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: yellow;
+}
+
+h3, p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;
+}
+
+#footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	width: 100%;
+}
