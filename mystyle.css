@@ -44,6 +44,15 @@ nav ul li a:hover {
 	background:rgba(63, 181, 255, 0.4);
 }
 
+img {
+	float: left;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-right: 25px;
+	padding-bottom: 0;
+}
+
 .content-wrapper-outer{display:block;overflow-y:scroll;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(255, 255, 255, 0.8);}
 
 .content .header{height:50px;width:500px;margin:0 auto;padding:0;}
@@ -55,6 +64,12 @@ nav ul li a:hover {
 .header {padding: 20px; text-align: center;} 
 
 .content-text {padding: 20px; margin-top: 50px;}
+
+.maps {
+	padding: 20px; 
+	display: inline-block; 
+	margin-left: 20px;
+}
 
 .websites {
 	display: inline-block;
@@ -160,3 +175,4 @@ a.website {
 #lesson2 {
 	background-image:url(beatles.png);
 }
+
